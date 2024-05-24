@@ -11,14 +11,23 @@
       <a href="index.html">Home</a>
       <a href="~">~</a>
       <a href="~">~</a>
-      <a href="~"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+      <div onclick="drop()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
     </nav>
   </header>
+  <div id="dropped" style="display:none">Drop test</div>
   <h1>MiloCorp</h1>
   <h2>About us</h2>
   <p>
   In Dev
   </p>
-  <script src="script.js"></script>
+  <script>
+    function drop() {
+      if (document.getElementById("dropped").style.display == "none") {
+        document.getElementById("dropped").style.display = "block";
+      } else {
+        document.getElementById("dropped").style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
