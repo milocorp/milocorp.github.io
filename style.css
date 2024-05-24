@@ -60,7 +60,14 @@ nav a {
   transform: translateY(25%);
   color: white;
   text-decoration: none;
+
+  /** Black */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 900;
+  src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
 }
+
 
 html, body {
   margin:0;
