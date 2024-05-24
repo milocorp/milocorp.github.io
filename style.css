@@ -5,10 +5,10 @@ body {
   font-family: sans-sherif;
   background-size: 200%, 200%;
   background: #ffffff
+  background-size: 1400% 1400%;
+}
 
- background-size: 1400% 1400%;
-
-nav {
+ nav {
   display: flex;
   background-color: black;
   margin:0;
@@ -23,6 +23,7 @@ nav a {
   transform: translateY(25%);
   color: white;
   text-decoration: none;
+}
 
   /** Black */
 @font-face {
