@@ -2,7 +2,7 @@ body {
   margin: 0;
   /*color: #ffffff;*/
   padding: 25px;
-  font-family: sans-sherif;
+  font-family: Helvetica;
   background-size: 200%, 200%;
   background: #ffffff;
   background-size: 1400% 1400%;
@@ -14,11 +14,11 @@ body {
   margin:0;
 }
 
-nav a, nav img {
+nav a, nav img, #menu {
   margin-right:17%;
 }
 
-nav a {
+nav a, #menu {
   top: 50%;
   transform: translateY(25%);
   color: white;
